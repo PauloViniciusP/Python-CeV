@@ -1,9 +1,8 @@
-from random import choice
+from random import randint
 print('-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-')
 print("Adivinhe o número entre 0 e 5 que vou pensar. Tente a sorte!")
 print('-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-')
-numero = [0, 1, 2, 3, 4 , 5]
-numero = choice(numero)
+numero = randint(0, 5)
 
 palpite = int(input('Tente chutar o número entre 0 e 5 que eu pensei: '))
 

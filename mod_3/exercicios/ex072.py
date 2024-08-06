@@ -8,7 +8,7 @@ while True:
         numero = int(input('Digite um número entere 0 e 20: '))
         if 0 <= numero <= 20:
             break
-        print('Tente novamente.', end='')
+        print('Tente novamente. ', end='')
 
     print(f'Você digitou o número {nomeNum[numero]}.')
     print('-' * 30)

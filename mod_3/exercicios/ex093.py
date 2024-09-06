@@ -14,7 +14,7 @@ print(jogador)
 print('-=-' * 20)
 
 for k, v in jogador.items():
-    print(f'O campo {k} tem o valor de {v}')\
+    print(f'O campo {k} tem o valor de {v}')
 
 print('-=-' * 20)
 

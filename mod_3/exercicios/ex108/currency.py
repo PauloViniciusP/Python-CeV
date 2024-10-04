@@ -3,7 +3,7 @@ def aumentar(preço=0, taxa=0):
     return res
 
 
-def diminuit(preço=0, taxa=0):
+def diminuir(preço=0, taxa=0):
     res = preço - (preço * taxa/100)
     return res
 
